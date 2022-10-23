@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_11"
+    tools:context=".HomeActivity2">
+
+    <TextView
+        android:id="@+id/email_display"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="sans-serif-thin"
+        android:text=""
+        android:textAlignment="center"
+        android:textColor="#171616"
+        android:textColorHighlight="#221F1F"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/phone_display"
+        tools:layout_conversion_absoluteHeight="94dp"
+        tools:layout_conversion_absoluteWidth="264dp" />
+
+    <TextView
+        android:id="@+id/phone_display"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="sans-serif-thin"
+        android:text=""
+        android:textAlignment="center"
+        android:textColor="#171616"
+        android:textColorHighlight="#221F1F"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/course_display"
+        tools:layout_conversion_absoluteHeight="94dp"
+        tools:layout_conversion_absoluteWidth="264dp" />
+
+    <TextView
+        android:id="@+id/sem_display"
+        android:layout_width="123dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="80dp"
+        android:fontFamily="sans-serif-thin"
+        android:textAlignment="center"
+        android:textColor="#171616"
+        android:textColorHighlight="#221F1F"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/DOB_display"
+        tools:layout_conversion_absoluteHeight="94dp"
+        tools:layout_conversion_absoluteWidth="264dp" />
+
+    <TextView
+        android:id="@+id/course_display"
+        android:layout_width="123dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="sans-serif-thin"
+        android:text=""
+        android:textAlignment="textEnd"
+        android:textColor="#171616"
+        android:textColorHighlight="#221F1F"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toStartOf="@+id/sem_display"
+        app:layout_constraintHorizontal_bias="0.961"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/DOB_display"
+        tools:layout_conversion_absoluteHeight="94dp"
+        tools:layout_conversion_absoluteWidth="264dp" />
+
+    <TextView
+        android:id="@+id/DOB_display"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="sans-serif-thin"
+        android:text=""
+        android:textAlignment="center"
+        android:textColor="#171616"
+        android:textColorHighlight="#221F1F"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/name_display"
+        tools:layout_conversion_absoluteHeight="94dp"
+        tools:layout_conversion_absoluteWidth="264dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="28dp"
+        android:backgroundTint="#5DE162"
+        android:fontFamily="sans-serif-condensed-light"
+        android:text="LOG OUT"
+        android:textColor="#454444"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/email_display"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="412dp"
+        android:layout_height="77dp"
+        android:background="#DFDFDB"
+        android:fontFamily="serif"
+        android:text="Home"
+        android:textAlignment="center"
+        android:textColor="#333131"
+        android:textSize="40sp"
+        android:textStyle="italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/name_display"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="sans-serif-thin"
+        android:text=""
+        android:textAlignment="center"
+        android:textColor="#171616"
+        android:textColorHighlight="#221F1F"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3"
+        tools:layout_conversion_absoluteHeight="94dp"
+        tools:layout_conversion_absoluteWidth="264dp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/profile"
+        app:srcCompat="@drawable/ic_outline_person_outline_24" />
+
+    <TextView
+        android:id="@+id/profile"
+        android:layout_width="125dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="28dp"
+        android:fontFamily="sans-serif-thin"
+        android:text="Profile"
+        android:textAlignment="center"
+        android:textColor="#151414"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
